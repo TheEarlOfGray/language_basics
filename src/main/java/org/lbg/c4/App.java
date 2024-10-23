@@ -12,5 +12,12 @@ public class App
         ClassB cb = new ClassB();
         int x = 33;
         System.out.println(x);
+
+        while((x++) < 35)
+            System.out.println("result");
+
+        for(int y = 0;x < 10;x++)
+            System.out.println(y);
+
     }
 }
